@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">AppAlarm</string>
+
+    <string name="fig_description">icon</string>
+    <string name="label_description">appName</string>
+
+    <string name="test">現在の警告時間：</string>
+    <string name="min">分後</string>
+    <string name="edit">ここに時間を入力</string>
+    <string name="change">分後に変更</string>
+    <string name="button">変更</string>
+
+    <string name="num_error">数字で入力してください</string>
+    <string name="num_change">変更しました</string>
 </resources>

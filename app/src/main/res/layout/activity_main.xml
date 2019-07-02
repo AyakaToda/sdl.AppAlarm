@@ -24,12 +24,13 @@ android:layout_height="wrap_content"
 android:layout_margin="4dp" >
 
 <!-- アイコン -->
-<ImageView
-    android:id="@+id/icon"
-    android:layout_width="48dp"
-    android:layout_height="48dp"
-    android:layout_alignParentLeft="true"
-    android:layout_alignParentTop="true"
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:contentDescription="@string/fig_description"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
     />
 
 <!-- ラベル -->
@@ -37,10 +38,11 @@ android:layout_margin="4dp" >
     android:id="@+id/label"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_alignParentRight="true"
-    android:layout_alignParentTop="true"
-    android:layout_toRightOf="@+id/icon"
+    android:layout_toEndOf="@+id/icon"
     android:textSize="18sp"
+    android:contentDescription="@string/label_description"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentTop="true"
     />
 
 </RelativeLayout>
